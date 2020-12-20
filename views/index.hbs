@@ -1,0 +1,23 @@
+<h1 class="ui center aligned icon header">
+  <i class="circular sticky note icon"></i>
+  <div class="content">{{title}}</div>
+  <div class="sub header">Welcome to {{title}}</div>
+</h1>
+<div class="ui centered aligned grid">
+  <a href="new" class="ui primary button">
+    New Message
+  </a>
+</div>
+
+<div class="ui middle aligned selection list centered grid">
+  {{#each messages}}
+  <div class="item nine wide column">
+    <i class="ui envelope icon"></i>
+    <div class="content">
+      <div class="header"><h3>{{text}}</h3></div>
+      <div class="header"><h5>{{user}}</h5></div>
+      {{added}}
+    </div>
+  </div>
+  {{/each}}
+</div>
