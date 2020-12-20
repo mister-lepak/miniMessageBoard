@@ -11,4 +11,4 @@ This is a project from https://theodinproject.com creating a mini message board.
 
 ## Where to visit the live preview?
 
-Follow the link to the github page:
+Follow the link to the heroku page: https://powerful-atoll-37228.herokuapp.com/
